@@ -1,0 +1,5 @@
+PATH=$PATH:/opt/gcw0-toolchain/usr/bin/
+./autogen.sh
+./configure --host=mipsel-linux --with-sdl-exec-prefix=`mipsel-linux-gcc -print-sysroot`/usr --enable-nokeyboard --enable-nosysio --enable-keycombo
+make
+
