@@ -438,12 +438,12 @@ void G_BuildTiccmd(ticcmd_t *cmd, int maketic)
             }
         }
     }
-    if (gamekeydown[127] && !cmd->arti
-        && !players[consoleplayer].powers[pw_weaponlevel2])
-    {
-        gamekeydown[127] = false;
-        cmd->arti = arti_tomeofpower;
-    }
+    //if (gamekeydown[127] && !cmd->arti
+    //    && !players[consoleplayer].powers[pw_weaponlevel2])
+    //{
+    //    gamekeydown[127] = false;
+    //    cmd->arti = arti_tomeofpower;
+    //}
 
 //
 // buttons
